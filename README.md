@@ -25,9 +25,9 @@
 
 # 📖 First Capstone <a name="about-project"></a>
 
-> This site is built as part of an exercise at Microverse. The site is about a Todo List
+> This site is built as part of an exercise at Microverse. The site is about a Leaderboard
 
-**The Todo List project** i
+**The Leaderboard project** i
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -99,7 +99,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/abeltsew/To-Do-list.git
+  git clone https://github.com/abeltsew/Leaderboard.git
 ```
 
 -
