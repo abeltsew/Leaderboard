@@ -6,7 +6,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+- [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -23,9 +23,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Webpack Template <a name="about-project"></a>
+# 📖 First Capstone <a name="about-project"></a>
 
-> This is a Webpack Template
+> This site is built as part of an exercise at Microverse. The site is about a Todo List
 
 **The Todo List project** i
 
