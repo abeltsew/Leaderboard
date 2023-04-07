@@ -77,7 +77,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](https://abeltsew.github.io/To-Do-list/)
+- [Live Demo](https://abeltsew.github.io/Leaderboard/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
