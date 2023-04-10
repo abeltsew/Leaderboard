@@ -11,7 +11,7 @@ export default async () => {
     .reverse()
     .forEach((record) => {
       const li = document.createElement('li');
-      li.innerHTML = `${record.user}:${record.score}`;
+      li.innerHTML = `<span>${record.user}</span><span>${record.score}<span>`;
       scoreBoard.appendChild(li);
     });
 };
