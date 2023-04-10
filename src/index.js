@@ -1,11 +1,43 @@
+import addScore from './module/addScore.js';
+import renderData from './module/renderData.js';
 import './style.css';
 
-import data from './data';
+let user = '';
+let score = '';
 
-const scoreBoard = document.querySelector('.score-table');
+const nameField = document.getElementById('userName');
+nameField.addEventListener('keyup', (e) => {
+  user = e.target.value;
+});
+nameField.value = user;
 
-data.forEach((record) => {
-  const li = document.createElement('li');
-  li.innerHTML = `${record.name}:${record.score}`;
-  scoreBoard.appendChild(li);
+const scoreField = document.getElementById('userScore');
+scoreField.addEventListener('keyup', (e) => {
+  score = e.target.value;
+});
+scoreField.value = score;
+
+const resetInput = () => {
+  user = '';
+  score = '';
+  nameField.value = '';
+  scoreField.value = '';
+};
+
+document.addEventListener('DOMContentLoaded', () => renderData());
+
+const refreshBtn = document.querySelector('.refresh-btn');
+
+refreshBtn.addEventListener('click', () => renderData());
+
+const addBtn = document.querySelector('.add-btn');
+
+addBtn.addEventListener('click', async (e) => {
+  e.preventDefault();
+  addScore(user, score).then((result) => {
+    if (result === 'Leaderboard score created correctly.') {
+      renderData();
+      resetInput();
+    }
+  });
 });
