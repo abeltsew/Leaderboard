@@ -23,7 +23,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 First Capstone <a name="about-project"></a>
+# 📖 Leaderboard <a name="about-project"></a>
 
 > This site is built as part of an exercise at Microverse. The site is about a Leaderboard
 
@@ -108,7 +108,7 @@ Clone this repository to your desired folder:
 
 Install this project with:
 
-No installation needed
+npm install
 
 ### Usage
 
