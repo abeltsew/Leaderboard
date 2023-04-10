@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 10%;
+  max-width: 900px;
+}
+
+h1 {
+  font-size: 3rem;
+  padding: 2rem 5%;
+}
+
+.score-display,
+.score-add {
+  display: flex;
+  flex-direction: column;
+}
+
+.score-header {
+  display: flex;
+  gap: 3rem;
+}
+
+.score-display {
+  flex: 2;
+}
+
+.score-add {
+  flex: 1;
+  gap: 1rem;
+}
+
+ul {
+  list-style: none;
+  border: solid #f2f2f2 2px;
+  margin: 1rem 10% 0 0;
+}
+
+li {
+  border: solid #f2f2f2 1px;
+  padding: 0.5rem 0.25rem;
+}
+
+li:nth-child(even) {
+  background-color: #f2f2f2;
+}
